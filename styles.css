@@ -13,18 +13,35 @@ h1 {
   font-weight: 600;
 }
 
-a {
+.social {
   color: #c6c7c8;
   font-size: 35px;
 }
 
-a:hover {
+.social:hover {
   color: #66fcf1;
   scale: 1.1;
 }
 
-div {
+.links {
   display: flex;
   flex-direction: row;
   gap: 20px;
+}
+
+.contributor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 5%;
+}
+
+p {
+  font-size: 20px;
+}
+
+.contributors {
+  color: #c6c7c8;
+  font-size: 20px;
 }
