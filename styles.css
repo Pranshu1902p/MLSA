@@ -1,0 +1,30 @@
+body {
+  height: 90%;
+  background-color: #0a192f;
+  color: #66fcf1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+a {
+  color: #c6c7c8;
+  font-size: 35px;
+}
+
+a:hover {
+  color: #66fcf1;
+  scale: 1.1;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
